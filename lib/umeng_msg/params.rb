@@ -32,8 +32,9 @@ module UmengMsg
             'content-available' => options['content-available'],
             'category'          => options['category']
           },
-          'title' => options['title'],
-          'extra' => options['extra'] || {}
+          'title'   => options['title'],
+          'type'    => options['message_type'],
+          'content' => options['message_content']
         }
       }
       android_payload = {
