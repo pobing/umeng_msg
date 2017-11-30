@@ -33,9 +33,7 @@ module UmengMsg
             'category'          => options['category']
           },
           'title'   => options['title'],
-          'type'    => options['message_type'],
-          'content' => options['message_content'],
-          'share_uuid' => options['message_share_uuid']
+          'extra'   => options['extra']
         }
       }
       android_payload = {
